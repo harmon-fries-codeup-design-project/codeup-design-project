@@ -2,3 +2,16 @@
     display: flex;
     flex-direction: column;
 }
+
+/*added styling*/
+
+/*Blue stack in Navbar*/
+.b-stack {
+    transform: scale(0.5);
+}
+
+/*Main headers*/
+.headers {
+    font-weight: bold;
+}
+
