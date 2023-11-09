@@ -1,16 +1,97 @@
-.nav-item {
+/*extra small and small screen*/
+    .nav-item {
+        display: flex;
+        flex-direction: column;
+    }
+
+    /*added styling*/
+
+    /*Blue stack in Navbar*/
+    .b-stack {
+        transform: scale(0.5);
+    }
+
+    /*Main headers*/
+    .headers {
+        font-weight: bold;
+    }
+
+    #circleOne {
+        width: 105px;
+        height: 105px;
+        background-color: #E6563B;
+        border-radius: 50%;
+        border: #ffffff 8px solid;
+        text-align: center;
+        font-family: anton;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: #F0F0F0;
+
+       /* margin-right: 10px;*/
+    }
+    #circleTwo {
+        width: 105px;
+        height: 105px;
+        background-color: #EB9D3A;
+        border-radius: 50%;
+        border: #ffffff 8px solid;
+        text-align: center;
+        font-family: anton;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: #F0F0F0;
+
+       /* margin-right: 10px;*/
+    }
+    #circleThree {
+        width: 105px;
+        height: 105px;
+        background-color: #7CB06C;
+        border-radius: 50%;
+        border: #ffffff 8px solid;
+        text-align: center;
+        font-family: anton;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: #F0F0F0;
+
+        /*margin-right: 10px;*/
+    }
+    #circleFour {
+        width: 105px;
+        height: 105px;
+        background-color: #00ABA9;
+        border-radius: 50%;
+        border: #ffffff 8px solid;
+        text-align: center;
+        font-family: anton;
+        display: flex;
+       /* flex-wrap: wrap;*/
+        justify-content: center;
+        align-items: center;
+        color: #F0F0F0;
+
+        /*margin-right: 10px;*/
+    }
+.row {
     display: flex;
-    flex-direction: column;
+    justify-content: center;
+
 }
 
-/*added styling*/
 
-/*Blue stack in Navbar*/
-.b-stack {
-    transform: scale(0.5);
-}
+
 
 /*Main headers*/
 .headers {
     font-weight: bold;
 }
+
+
+
+
+
