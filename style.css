@@ -377,5 +377,8 @@ p .circle-small {
 /************Media Queries for medium, large, and x-large screens***************************/
 
 @media screen and (min-width: 768px) and (max-width: 991px) {
+    .images-icons-text{ /*entire container for images*/
 
+
+    }
 }
