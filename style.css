@@ -83,8 +83,79 @@
 
 }
 
+p .circle-small {
+    width: 18px; /* Adjusted width */
+    height: 18px; /* Adjusted height */
+    /*background-color: #E6563B;*/
+    /*border-radius: 50%;*/
+    /*!*border: #ffffff 2px solid;*!*/
+    /*text-align: center;*/
+    /*font-family: anton;*/
+    /*display: flex;*/
+    /*justify-content: center;*/
+    /*align-items: center;*/
+    /*color: #F0F0F0;*/
+    /*margin: 0 5px; !* Add spacing between circles *!*/
+}
+
+/*Small circles for featured products*/
+
+#circle1 {
+    width:18px;
+    height: 21px;
+    background-color: #E6563B;
+    border-radius: 50%;
+    text-align: center;
+    font-family: anton;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+}
+
+#circle2 {
+    width:18px;
+    height: 21px;
+    background-color: #EB9D3A;
+    border-radius: 50%;
+    text-align: center;
+    font-family: anton;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    margin-left: 5px;
+}
 
 
+#circle3 {
+    width:18px;
+    height: 21px;
+    background-color: #7CB06C;
+    border-radius: 50%;
+    text-align: center;
+    font-family: anton;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    margin-left: 5px;
+}
 
+#circle4 {
+    width:18px;
+    height: 21px;
+    background-color: #00ABA9;
+    border-radius: 50%;
+    text-align: center;
+    font-family: anton;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    margin-left: 5px;
+}
+/* moving small circles to the right of "featured project"*/
+.s-circle {
 
-
+}
